@@ -1,0 +1,147 @@
+libandroid.so
+libaaudio.so
+libamidi.so
+libbinder_ndk.so
+libc.so
+libcamera2ndk.so
+libclang_rt.hwasan-aarch64-android.so 64 nopreload
+libdl.so
+libEGL.so
+libGLESv1_CM.so
+libGLESv2.so
+libGLESv3.so
+libicu.so
+libicui18n.so
+libicuuc.so
+libjnigraphics.so
+liblog.so
+libmediandk.so
+libm.so
+libnativehelper.so
+libnativewindow.so
+libneuralnetworks.so nopreload
+libOpenMAXAL.so
+libOpenSLES.so
+libRS.so
+libstdc++.so
+libsync.so nopreload
+libvulkan.so
+libwebviewchromium_plat_support.so
+libz.so
+libRgbOnlineCalib.pxr.so nopreload
+libSlamDistance.pxr.so nopreload
+libSlamTools.pxr.so nopreload
+libVS.so nopreload
+libandroid_runtime.so nopreload
+libatrace-percetto.so nopreload
+libbase.so nopreload
+libbaseservice.pxr.so nopreload
+libbaseservice_client.pxr.so nopreload
+libbinder.so nopreload
+libc++.so nopreload
+libc++_shared.so nopreload
+libconfigurationclient.pxr.so nopreload
+libcontrollerjni.pxr.so nopreload
+libcutils.so nopreload
+libdl_android.so nopreload
+libeventlog.so nopreload
+libeventstrack.so nopreload
+libeyetrackingclient.pxr.so nopreload
+libfmq.so nopreload
+libgralloctypes.so nopreload
+libguardian_plugin.so nopreload
+libgui.so nopreload
+libhardware.so nopreload
+libhidlbase.so nopreload
+libhidlmemory.so nopreload
+libhidltransport.so nopreload
+libhmdserviceclient.pxr.so nopreload
+libhwbinder.so nopreload
+libhwui.so nopreload
+libion.so nopreload
+libipdclient.pxr.so nopreload
+libjsoncpp.so nopreload
+libmedia_jni_utils.so nopreload
+libmrEngineClient.so nopreload
+libmr_alg_client.pxr.so nopreload
+libmroperationmanager.pxr.so nopreload
+libmrservice_plugin.so nopreload
+libmrsystemservice.pxr.so nopreload
+libmrsystemservice_client.pxr.so nopreload
+libnativedisplay.so nopreload
+libopenmr-common.so nopreload
+libopenxr_loader.so nopreload
+libpermission.so nopreload
+libpico_controller_tracking.pxr.so nopreload
+libpmhvndk_alloc_v2.so nopreload
+libpmhvndk_allochidl2.so nopreload
+libpmhvndk_android_hardware_common_V2_ndk.so nopreload
+libpmhvndk_android_hardware_graphics_allocator_3_0.so nopreload
+libpmhvndk_android_hardware_graphics_allocator_4_0.so nopreload
+libpmhvndk_android_hardware_graphics_bufferqueue_1_0.so nopreload
+libpmhvndk_android_hardware_graphics_bufferqueue_2_0.so nopreload
+libpmhvndk_android_hardware_graphics_common_1_0.so nopreload
+libpmhvndk_android_hardware_graphics_common_1_1.so nopreload
+libpmhvndk_android_hardware_graphics_common_1_2.so nopreload
+libpmhvndk_android_hardware_graphics_common_V4_ndk.so nopreload
+libpmhvndk_android_hardware_graphics_mapper_2_0.so nopreload
+libpmhvndk_android_hardware_graphics_mapper_2_1.so nopreload
+libpmhvndk_android_hardware_graphics_mapper_3_0.so nopreload
+libpmhvndk_android_hardware_graphics_mapper_4_0.so nopreload
+libpmhvndk_android_hardware_media_1_0.so nopreload
+libpmhvndk_android_hidl_token_1_0_utils.so nopreload
+libpmhvndk_common_v2.so nopreload
+libpmhvndk_gfx_v4.so nopreload
+libpmhvndk_gfxcommon10.so nopreload
+libpmhvndk_mapper2.so nopreload
+libpmhvndk_pxr_notification_aidl_interface_ndk.so nopreload
+libprotobuf-cpp-lite.so nopreload
+libpvrmanager.pxr.so nopreload
+libpvrtrackingbuffer.so nopreload
+libpvrtrackingcommon.so nopreload
+libpxrcompositor.so nopreload
+libpxrcontrollerclient.pxr.so nopreload
+libpxreyetrackingbuffer.so nopreload
+libpxrfwcommon.so nopreload
+libpxrfwutils.so nopreload
+libpxrguiex.so nopreload
+libpxrinputmanager.so nopreload
+libpxrnotification.pxr.so nopreload
+libpxrplatformloader.so nopreload
+libpxrplatformloader4j.so nopreload
+libpxrplugin.so nopreload
+libpxrruntime.so nopreload
+libpxrruntime_service.so nopreload
+libpxrshm.so nopreload
+libpxrvsync.so nopreload
+librms_jni.so nopreload
+librmsclient.so nopreload
+librmscore.so nopreload
+libsafetyareadetect.pxr.so nopreload
+libseethroughclient.pxr.so nopreload
+libsense_client.so nopreload
+libsense_common.so nopreload
+libsensor.so nopreload
+libstationclient.pxr.so nopreload
+libsvp.so nopreload
+libswitchstate.so nopreload
+libsysmtpdata.so nopreload
+libsysperftracker.so nopreload
+libtrackerclient.pxr.so nopreload
+libtrackingclient.pxr.so nopreload
+libturbojpeg.so nopreload
+libui.so nopreload
+libunwindstack.so nopreload
+libutils.so nopreload
+libutilscallstack.so nopreload
+libuuid.so nopreload
+libvirtualinputclient.so nopreload
+libvndksupport.so nopreload
+libmeta_xrloader.so nopreload
+libpico_meta_bridge.so nopreload
+libpico_xr_inject.so nopreload
+libpmh_openxr_layer.so nopreload
+libalog.so nopreload
+libbtperipheral_jni.so nopreload
+libpmh_pico_bridge.so nopreload
+libpmh_ctrl_shim.so nopreload

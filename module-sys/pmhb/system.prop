@@ -1,0 +1,12 @@
+ro.build.display.id=5.14.4
+ro.pui.build.version=5.14.4
+ro.pico.tag=sek
+ro.pico.ota.version=5.14.4-202507302218-RELEASE-user-sparrow-b7055
+ro.pvr.internal.version=c000_rf01_bv1.0.1_sv5.14.4_202507302218_sparrow_b7055_user
+persist.sys.pico.runtimesupercore=1
+persist.pvr.mrc_enable=0
+persist.pvr.sleep_by_static=1
+persist.pvr.wifi.auto_connect=0
+persist.pvr.systemdowngrade.allowed=0
+pvr.system.led.type=1
+ro.device.feature.tracking.inside_out_body_tracking.disabled=false

@@ -1,0 +1,10 @@
+# Let app processes exchange the tracker pose through /data/local/tmp.
+# This is a development convenience: PMHBridge's module runs inside the PICO
+# tracker app while the OpenXR layer runs inside game processes, so they need a
+# shared file that both sides can open.
+allow untrusted_app shell_data_file file { create write open read getattr map unlink };
+allow untrusted_app shell_data_file dir { search write add_name remove_name open read getattr };
+allow untrusted_app_27 shell_data_file file { create write open read getattr map unlink };
+allow untrusted_app_27 shell_data_file dir { search write add_name remove_name open read getattr };
+allow priv_app shell_data_file file { create write open read getattr map unlink };
+allow priv_app shell_data_file dir { search write add_name remove_name open read getattr };

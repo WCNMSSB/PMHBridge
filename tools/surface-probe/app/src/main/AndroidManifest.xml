@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Minimal manifest for the display-bridge probe.
+  Build with the same toolchain as helper-compose (AGP 9.x, compileSdk 37),
+  targeted at the PICO runtime package:
+
+    com.pico.xr.openxr_runtime
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pmh.surfaceprobe">
+
+    <!-- The runtime exposes IPicoOpenXR through a bound service, not servicemanager. -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <application
+        android:label="PMH Surface Probe"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <activity
+            android:name=".SurfaceProbeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

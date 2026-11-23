@@ -1,0 +1,6 @@
+id=pmh_zygisk_input
+name=PMHBridge Zygisk input bridge
+version=v1
+versionCode=1
+author=PMHBridge
+description=Injects into PXR apps to provide PICO controller service backed by Quest input.

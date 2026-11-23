@@ -1,0 +1,50 @@
+# Build outputs
+build/
+dist/
+**/build/
+**/dist/
+*.apk
+*.aab
+*.jar
+*.dex
+*.so
+!module-sys/pmhb/**/*.json
+.gradle/
+**/.gradle/
+local.properties
+*.iml
+.idea/
+
+# External blobs and firmware payloads are NOT part of this repository.
+# See BLOBS.md for the expected layout under <repo>/blobs/pmhb/.
+blobs/
+../blobs/
+extracted/
+images/
+firmware/
+rootfs/
+platform-tools*/
+tools/android-sdk/
+tools/ndk/
+tools/smali/
+tools/jadx/
+testapp/*.jks
+testapp/*.keystore
+
+# Device dumps and logs
+*.log
+*.bin
+captures/
+screenshots/
+analysis/device/
+
+# Python / tooling caches
+__pycache__/
+*.pyc
+.venv/
+
+# Built probe libraries and test artifacts living next to their sources
+module/assets/*.so
+tools/xrlayertest/dex/
+tools/xrlayertest/lib/
+tools/surface-probe/app/build/

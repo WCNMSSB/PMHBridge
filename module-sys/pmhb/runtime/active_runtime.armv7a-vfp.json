@@ -1,0 +1,10 @@
+{
+  "file_format_version": "1.0.0",
+  "runtime": {
+    "library_path": "/system/lib/libpico_meta_bridge.so",
+    "functions": {
+      "xrNegotiateLoaderRuntimeInterface": "xrNegotiateLoaderRuntimeInterface",
+      "xrInitializeLoaderKHR": "xrInitializeLoaderKHR"
+    }
+  }
+}

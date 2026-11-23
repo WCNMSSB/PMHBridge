@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposedscope">
+        <item>com.oculus.vrshell</item>
+        <item>com.picovr.picostreamassistant</item>
+        <item>com.picovr.vrusercenter</item>
+        <item>com.picovr.store</item>
+        <item>com.pvr.swift</item>
+        <item>com.bytedance.pico.matrix</item>
+    </string-array>
+</resources>

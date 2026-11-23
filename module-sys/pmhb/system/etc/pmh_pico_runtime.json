@@ -1,0 +1,8 @@
+{
+  "file_format_version": "1.0.0",
+  "runtime": {
+    "library_path": "/system/lib64/libpmh_pico_bridge.so",
+    "name": "PMH PICO facade",
+    "version": "0.1.0"
+  }
+}

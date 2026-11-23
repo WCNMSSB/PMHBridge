@@ -1,0 +1,17 @@
+{
+    "file_format_version": "1.0.0",
+    "api_layer": {
+        "name": "XR_APILAYER_PMH_tracker_bridge",
+        "library_path": "libpmh_openxr_layer.so",
+        "api_version": "1.0",
+        "implementation_version": "1",
+        "description": "PMHBridge: bridges PICO Swift trackers into Horizon OS body tracking",
+        "disable_environment": "XR_DISABLE_PMH_TRACKER_LAYER",
+        "functions": {
+            "xrGetInstanceProcAddr": "xrGetInstanceProcAddr",
+            "xrCreateApiLayerInstance": "xrCreateApiLayerInstance"
+        },
+        "instance_extensions": [],
+        "device_extensions": []
+    }
+}

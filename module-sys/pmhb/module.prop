@@ -1,0 +1,6 @@
+id=pmhb
+name=PMHBridge
+version=v1.0
+versionCode=1
+author=周-zhou(WCNMSSB) and Deepseek
+description=Single PMHBridge Magisk module: OpenXR tracker layer, PICO runtime facade, controller battery shim, PXR service names, PICO XR runtime, BLE peripheral service, loader overlay and PICO identity props.
